@@ -49,4 +49,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: noufal/cicd:latest
+          tags: noufalmc/cicd:latest
