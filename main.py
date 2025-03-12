@@ -9,6 +9,7 @@ app = FastAPI()
 
 @app.get("/cicd/v1/getHealth")
 def getHealthCheck()->str:
+    #Checking the health status
     return '{"Health":"OK"}'
 
 
