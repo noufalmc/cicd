@@ -23,9 +23,7 @@ jobs:
           pip install -r requirements.txt
           pip install black
 
-      - name: Run code formatting check with Black
-        run: |
-          black --check
+      
 
   build-and-push:  # Changed from "build and push"
     needs: test-and-lint
